@@ -71,6 +71,7 @@ in
             npx next-sitemap
             npx pagefind --site ./out
             ls -la out
+            ls -laR out/api
           '';
         };
 
